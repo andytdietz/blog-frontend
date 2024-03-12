@@ -11,14 +11,34 @@ form {
   color: #333;
   padding: 20px;
   border-radius: 8px;
+  font-size: 20px;
+  font
 }
 
 form input[type="text"],
-form input[type="email"],
 form textarea {
   color: blue;
-  background-color: #fff;
+  background-color: #ffffff82;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 10px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer; 
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 20px;
 }

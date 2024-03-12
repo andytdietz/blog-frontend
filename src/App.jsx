@@ -78,6 +78,12 @@ function Content() {
       image_url:
         "https://ew.com/thmb/0jLj0ITrfMEz6ulIiPCRoIzzPXg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/the-office-2000-655c537bfac04025aef24d328f0f9b88.jpg",
     },
+    {
+      id: 4,
+      title: "So you think you can blog?",
+      body: "Well, similar to starting a podcast, anyone can do it, but most people shouldn't!",
+      image_url: "https://miro.medium.com/v2/resize:fit:1400/1*ID0PcNdie73qAgK_iOP8YQ.png",
+    },
   ];
   return (
     <>
