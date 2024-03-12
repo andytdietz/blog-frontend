@@ -5,3 +5,20 @@
 html {
   scroll-behavior: smooth;
 }
+
+form {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  color: blue;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
