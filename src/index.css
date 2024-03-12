@@ -24,7 +24,7 @@ form textarea {
   border-radius: 10px;
 }
 
-button {
+button.submit-post-button {
   width: 150px;
   height: 50px;
   background-color: blue;
@@ -33,6 +33,17 @@ button {
   border: none;
   border-radius: 10px;
   cursor: pointer; 
+}
+
+button.more-info-button {
+  width: 80px;
+  height: 30px;
+  background-color: rgb(44, 187, 189);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer; 
+  display: block;
 }
 
 h2 {

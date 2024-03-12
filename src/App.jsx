@@ -22,7 +22,9 @@ function PostsNew() {
         <div>
           Image: <input type="text" />
         </div>
-        <button type="submit">Create Post</button>
+        <button type="submit" className="submit-post-button">
+          Create Post
+        </button>
       </form>
     </div>
   );
@@ -38,7 +40,7 @@ function PostsIndex(props) {
           <h2>{post.title}</h2>
           <p>{post.body} </p>
           <img src={post.image_url} alt="" />
-          <button>More info</button>
+          <button className="more-info-button">More info</button>
         </div>
       ))}
     </div>
