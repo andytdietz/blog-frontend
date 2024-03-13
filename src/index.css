@@ -1,9 +1,15 @@
+
+
 #posts-index img {
   width: 300px;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
 }
 
 form {
@@ -44,6 +50,31 @@ button.more-info-button {
   border-radius: 10px;
   cursor: pointer; 
   display: block;
+}
+
+header {
+background-color: cadetblue;
+padding: 1em;
+font-size: larger;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header a {
+  color: whitesmoke;
+  margin-right: 3em;
+}
+
+header a:hover {
+  background-color:rgb(28, 83, 13);
+  border-radius: 10px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 1em;
+  text-align: center;
+  padding: .005em
 }
 
 h2 {
