@@ -32,9 +32,9 @@ export function Content() {
     },
   ];
   return (
-    <>
+    <main>
       <PostsNew />
       <PostsIndex posts={posts} />
-    </>
+    </main>
   );
 }
