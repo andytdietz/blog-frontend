@@ -12,6 +12,7 @@ body {
   margin: 1;
   background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/blue-snow.png");
   text-align: center;
+  
 }
 
 form {
@@ -129,3 +130,4 @@ main {
   max-width: 50em;
   margin: 0 auto;
 }
+
