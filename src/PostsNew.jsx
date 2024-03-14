@@ -1,8 +1,19 @@
+import axios from "axios";
+
 export function PostsNew() {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log("Post Created");
+    const params = new FormData(event.target);
+    axios.post("http://localhost:3000/posts.json", params).then((response) => {
+      console.log(response.data);
+      event.target.reset();
+    });
+  };
   return (
     <div id="posts-new">
       <h1>New post</h1>
-      <form method="POST" action="http://localhost:3000/posts.json">
+      <form onSubmit={handleSubmit}>
         <div>
           Title: <input name="title" type="text" />
         </div>
