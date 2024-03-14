@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { PostsIndex } from "./PostsIndex";
 import { PostsNew } from "./PostsNew";
 import { Modal } from "./Modal";
+import { PostsShow } from "./PostsShow";
 
 export function Content() {
   const [posts, setPosts] = useState([]);
@@ -33,9 +34,7 @@ export function Content() {
       <PostsNew />
       <PostsIndex posts={posts} onShowPosts={handleShowPosts} />
       <Modal show={isPostsShowVisible} onClose={handleClose}>
-        <p>{currentPost.title}</p>
-        <p>{currentPost.body}</p>
-        <img src={currentPost.image} alt="" />
+        <PostsShow post={currentPost} />
       </Modal>
     </main>
   );
