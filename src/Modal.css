@@ -21,7 +21,7 @@
   left:50%;
   transform: translate(-50%,-50%);
   padding: 1em;
-  background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/watercolor.png");
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/restaurant.png");
 }
 
 .modal-main img {
@@ -34,6 +34,6 @@
   background: none;
   border: none;
   position: absolute;
-  top: .5em; 
-  right: 0.2em;
+  top: .75em; 
+  right: .1em;
 }
