@@ -23,7 +23,6 @@ form {
   border-radius: 8px;
   font-size: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 form input[type="text"],
@@ -34,7 +33,7 @@ form textarea {
   border: 1px ridge blue;
   border-radius: 1em;
   padding: 1em;
-  width: 75%;
+  width: 100%;
   margin-bottom: 20px;
   padding-bottom: 20px
 }
@@ -76,16 +75,18 @@ button {
 
 header {
 background-color: cadetblue;
-padding: 1em;
 font-size: larger;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 text-align: center;
+display: flex;
+align-items: flex-start;
+padding: 20px
 ;
 }
 
 header a {
   color: whitesmoke;
-  margin-right: 3em;
+  margin-right: 30px;
 }
 
 header a:hover {
