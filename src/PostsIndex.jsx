@@ -1,19 +1,18 @@
+/* eslint-disable react/prop-types */
 export function PostsIndex(props) {
-  console.log(props);
   return (
-    <div id="posts-index">
-      <h1>All posts</h1>
-      <div className="cards">
-        {props.posts.map((post) => (
-          <div key={post.id} className="posts card">
-            <h2>{post.title}</h2>
-            <img src={post.image} alt="" />
-            <button className="more-info-button" onClick={() => props.onShowPosts(post)}>
-              More info
-            </button>
-          </div>
-        ))}
-      </div>
+    <div className="cards" id="posts-index">
+      <h1>All Posts</h1>
+      {props.posts.map((post) => (
+        <div className="card" key={post.id}>
+          <h2>{post.title}</h2>
+          <p>{post.body}</p>
+          <img src={post.image} />
+          <button className="read-more-button" onClick={() => props.onShowPost(post)}>
+            Read More
+          </button>
+        </div>
+      ))}
     </div>
   );
 }
