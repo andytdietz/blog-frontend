@@ -14,11 +14,13 @@
   position: fixed;
   background: white;
   width: 80%;
-  height: auto;
+  height: 95%;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   padding: 1em;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+  overflow: auto; /* Add scrollbar if content overflows */
 }
 
 .modal-main button.close {
@@ -28,4 +30,5 @@
   position: absolute;
   top: 0em;
   right: 0.2em;
+  z-index: 1001;
 }
