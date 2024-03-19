@@ -4,7 +4,7 @@ export function Header() {
       <header>
         {/* <a href="#">Home</a> | <a href="#">All Posts</a> */}
 
-        <nav className="navbar navbar-expand-lg bg-light">
+        <nav className="navbar fixed-top bg-light">
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
               Bloggr
