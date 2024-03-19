@@ -65,7 +65,7 @@ export function Content() {
   useEffect(handleIndexPosts, []);
 
   return (
-    <div>
+    <div className="container">
       <PostsNew onCreatePost={handleCreatePost} />
       <PostsIndex posts={posts} onShowPost={handleShowPost} />
       <Modal show={isPostsShowVisible} onClose={handleClose}>
